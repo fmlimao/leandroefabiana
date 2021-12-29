@@ -285,8 +285,6 @@ h1 {
   }
 
   .content {
-    // background-color: red;
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -295,12 +293,12 @@ h1 {
     width: 300px;
     height: 80px;
 
-    // @media screen and (min-width: 768px) {
-    //   margin-left: -200px;
-    //   margin-top: -30px;
-    //   width: 400px;
-    //   height: 60px;
-    // }
+    @media screen and (min-width: 768px) {
+      margin-left: -200px;
+      margin-top: -50px;
+      width: 400px;
+      height: 100px;
+    }
 
     .title {
       .font-great-vibes;
@@ -310,11 +308,11 @@ h1 {
       // color: darken(#da3349, 0%);
       // text-shadow: 4px 4px 2px lighten(#da3349, 40%);
 
-      // h1 {
-      //   @media screen and (min-width: 768px) {
-      //     font-size: 50px;
-      //   }
-      // }
+      h1 {
+        @media screen and (min-width: 768px) {
+          font-size: 50px;
+        }
+      }
     }
 
     .subtitle {
@@ -327,6 +325,10 @@ h1 {
       // text-shadow: 2px 2px 1px lighten(#da3349, 40%);
       // font-weight: bold;
       font-size: 24px;
+
+      @media screen and (min-width: 768px) {
+        font-size: 30px;
+      }
     }
   }
 }
