@@ -243,14 +243,14 @@ h1 {
 .main .content .title {
   font-family: 'great-vibes';
   text-align: center;
-  color: #da3349;
-  text-shadow: 4px 4px 2px #f9e0e3;
+  color: #8ab6d9;
+  text-shadow: 4px 4px 1px #eaf2f8;
 }
 .main .content .subtitle {
   font-family: 'miama';
   margin-top: 15px;
   text-align: center;
-  color: #da3349;
-  text-shadow: 2px 2px 1px #f9e0e3;
+  color: #8ab6d9;
+  text-shadow: 4px 4px 1px #eaf2f8;
   font-size: 24px;
 }
